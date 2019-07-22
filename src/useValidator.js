@@ -1,20 +1,12 @@
-import React, {useMemo, useContext} from "react";
+import React, {useContext, useMemo} from "react";
 import {createValidator} from "@mouseover/js-validation";
 import {defaultRuleSet} from "./defaultRuleSet";
+import {ValidatorContext} from "./ValidatorContext";
 
-
-export const ValidatorContext = React.createContext(null);
-
-export const ValidatorProvider = (props) => {
-    const {ruleSet} = props;
-    const validator = useMemo(() => createValidator(ruleSet || defaultRuleSet), [ruleSet]);
-    return (<ValidatorContext.Provider value={validator} {...props} />);
-};
 
 export const useValidator = (rules) => {
     const validatorContext = useContext(ValidatorContext);
     return useMemo(() => {
-        console.log('[useValidator][useMemo]', rules);
         return validatorContext ? validatorContext(rules) : createValidator(defaultRuleSet)(rules);
     }, [rules]);
 };

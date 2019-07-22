@@ -1,7 +1,6 @@
 import React from 'react';
 import {render, cleanup} from '@testing-library/react';
-import useValidator, {ValidatorProvider} from '../src/useValidator';
-import {defaultRuleSet} from "../src/defaultRuleSet";
+import {useValidator, defaultRuleSet, ValidatorProvider} from '../src';
 
 const rules = {
     minTest: {

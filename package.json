@@ -1,6 +1,6 @@
 {
   "name": "@mouseover/js-validation-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/validation.js",
   "scripts": {
     "build": "rollup -c",
