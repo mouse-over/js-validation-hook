@@ -1,7 +1,7 @@
 {
   "name": "@mouseover/js-validation-hook",
-  "version": "1.0.1",
-  "main": "lib/validation.js",
+  "version": "1.0.2",
+  "main": "lib/validation-hook.js",
   "scripts": {
     "build": "rollup -c",
     "test.watch": "yarn test --watchAll",
