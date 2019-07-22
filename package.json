@@ -1,0 +1,33 @@
+{
+  "name": "@mouseover/js-validation-hook",
+  "version": "1.0.0",
+  "main": "lib/validation.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test.watch": "yarn test --watchAll",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Vaclav Prokes <vprokes@mouose-over.net>",
+  "license": "MIT",
+  "files": [
+    "src",
+    "lib",
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/react": "^8.0.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "react-dom": "^16.8.6",
+    "rollup": "^1.17.0",
+    "rollup-plugin-babel": "^4.3.3"
+  },
+  "dependencies": {
+    "@mouseover/js-validation": "^1.0.0",
+    "react": "^16.8.6"
+  }
+}
