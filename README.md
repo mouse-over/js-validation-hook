@@ -1,6 +1,6 @@
 # @mouseover/js-validation-hook
 
-> This library is proof off concept.
+> This library is proof of concept.
 
 Provides validator (@mouseover/js-validation) through useValidator hook.
 
