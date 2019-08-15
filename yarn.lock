@@ -857,10 +857,17 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@mouseover/js-validation@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@mouseover/js-validation/-/js-validation-1.0.0.tgz#214db048746a236b33e9b397d15a8ba750b03a4a"
-  integrity sha512-PXTi+cfKrv4WzdMtyzelhJYanhdbVXKu4FlRrr+VhxqzWr2FJWZN2psELzBUe3TN8J9XWLMtqPD25DUW77h/kQ==
+"@mouseover/js-utils@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@mouseover/js-utils/-/js-utils-0.0.1.tgz#e12655bae19746d9cd41a193a7457fd12d905b18"
+  integrity sha512-S0oBWCwAZ/gFm74wQw1JwYCoiC2xr7rU5JhSnLw12mLBJ+1cc3HkFBft5CVJk4JkiNz76RwuibAnjjTuRCTozA==
+
+"@mouseover/js-validation@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@mouseover/js-validation/-/js-validation-1.0.4.tgz#d2957949ab8f7fe95ebbf8aae86e25e6ae21950d"
+  integrity sha512-yz/sNK88GaW8jezJL8VBXWO5Me/SVDHiHW3V11v9XLTCvuEItf2IiZkicKLcvcWzy6dGU9axhe2XXLnqIS2+gQ==
+  dependencies:
+    "@mouseover/js-utils" "^0.0.1"
 
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.2"

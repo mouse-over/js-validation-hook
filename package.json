@@ -1,6 +1,6 @@
 {
   "name": "@mouseover/js-validation-hook",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "lib/validation-hook.js",
   "repository": "github:mouse-over/js-validation-hook",
   "scripts": {
@@ -28,7 +28,8 @@
     "rollup-plugin-babel": "^4.3.3"
   },
   "dependencies": {
-    "@mouseover/js-validation": "^1.0.0",
+    "@mouseover/js-utils": "^0.0.1",
+    "@mouseover/js-validation": "^1.0.4",
     "react": "^16.8.6"
   }
 }

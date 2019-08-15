@@ -1,4 +1,4 @@
-import {isEmail, isRequired, isValidMax, isValidMaxLength, isValidMin, isValidMinLength, isValidPattern} from "@mouseover/js-validation";
+import {isEmail, isRequired, isValidMax, isValidMaxLength, isValidMin, isValidMinLength, isValidPattern} from "@mouseover/js-utils";
 
 export const defaultRuleSet = {
     required: {
