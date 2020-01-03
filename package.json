@@ -1,6 +1,6 @@
 {
   "name": "@mouseover/js-validation-hook",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "lib/validation-hook.js",
   "repository": "github:mouse-over/js-validation-hook",
   "scripts": {
@@ -24,12 +24,12 @@
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
     "react-dom": "^16.12.0",
-    "rollup": "^1.27.13",
+    "rollup": "^1.27.14",
     "rollup-plugin-babel": "^4.3.3"
   },
   "dependencies": {
-    "@mouseover/js-utils": "^0.0.2",
-    "@mouseover/js-validation": "^1.0.6",
+    "@mouseover/js-utils": "^0.0.4",
+    "@mouseover/js-validation": "^1.0.7",
     "react": "^16.12.0"
   }
 }
