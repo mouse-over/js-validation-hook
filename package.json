@@ -1,6 +1,6 @@
 {
   "name": "@mouseover/js-validation-hook",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "lib/validation-hook.js",
   "repository": "github:mouse-over/js-validation-hook",
   "scripts": {
