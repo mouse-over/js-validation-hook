@@ -28,8 +28,8 @@
     "rollup-plugin-babel": "^4.3.3"
   },
   "dependencies": {
-    "@mouseover/js-utils": "^0.0.4",
-    "@mouseover/js-validation": "^1.0.7",
+    "@mouseover/js-utils": "0.0.x",
+    "@mouseover/js-validation": "1.0.x",
     "react": "^16.12.0"
   }
 }
