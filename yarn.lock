@@ -1086,14 +1086,14 @@
     chalk "^4.0.0"
 
 "@mouseover/js-utils@0.0.x":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@mouseover/js-utils/-/js-utils-0.0.7.tgz#bc4c4a96f5ff9f374b3e4cb219743c4071242a82"
-  integrity sha512-T7uHLsCDFSyVDpKe6Qj06moqT/Y4fq4kWTXlZg+dSb0k9fSFNt1W96OpXuq3BnljvgiN/IFrHNi6zZd9hVIm7Q==
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@mouseover/js-utils/-/js-utils-0.0.8.tgz#343fc433a41ea7e270b1f8f24d3a0ae39fc08b5c"
+  integrity sha512-5DVRPY7ZLnEKe3J+ZDpQ3YyFKRb4b0rzimDqAv6mDi4G4iJptm1MStYY6X/mHRBi7QuIv6I15eSFm9T6XFnGXA==
 
 "@mouseover/js-validation@1.0.x":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@mouseover/js-validation/-/js-validation-1.0.10.tgz#77b1479eb0c8b673fe48277dad77f8c01935b510"
-  integrity sha512-Mutw9tqDoveV/v4EZD3sjzm5OGGTiuQGcl8RztJcoxWuAmyGV3nA76oMm7tT+umSrZFVCDyCstbFBbuEy6Q6HQ==
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@mouseover/js-validation/-/js-validation-1.0.11.tgz#4bd5dfb52920601f685c1e24b9a1d758f5d9e0a0"
+  integrity sha512-D93E9gakWSqUpH3BbrIHIvhWSoQTUS7/rxeefvOIePZHUrqb7044jeAa02kTbISouK8IyuffZRnE3hyJyR8CdQ==
   dependencies:
     "@mouseover/js-utils" "0.0.x"
 
